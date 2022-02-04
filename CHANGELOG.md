@@ -1,3 +1,6 @@
+# 7.1.0
+- Update RxSwift version to 6.5.0
+
 # 7.0.0
 - Updated RxSwift version to 6.0 (#392)
 
@@ -105,7 +108,7 @@
 - Added objectId property to missing `Service`, `Characteristic` and `Descriptor` objetcs.
 
 # 3.0.9
-- Added objectId property to `Peripheral` object needed by react-native library. Should not be necessary in 4.x version of the library. 
+- Added objectId property to `Peripheral` object needed by react-native library. Should not be necessary in 4.x version of the library.
 
 # 3.0.8
 - Support for multiple services/characteristics under the same UUID
@@ -157,7 +160,7 @@
 - Fixed memory leak, that was visible while calling scan
 - Fixed behavior of discoverServices method.
 - Added monitoring of disconnection on Peripheral example to the Example app
-# 1.2.1 
+# 1.2.1
 - `listenOnRestoredState` method made public
 
 # 1.2.0
